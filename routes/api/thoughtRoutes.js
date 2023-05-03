@@ -14,7 +14,7 @@ router.route("/").get(getThoughts).post(createThought);
 
 // /api/ThoughtsgetThoughts/:videoId
 router
-  .route("/:videoId")
+  .route("/:thoughtId")
   .get(getSingleThought)
   .put(updateThought)
   .delete(deleteThought);
