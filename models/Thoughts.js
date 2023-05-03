@@ -34,6 +34,6 @@ const thoughtSchema = new mongoose.Schema({
   reactions: [reactionSchema],
 });
 
-const Thought = mongoose.model("Thought", thoughtSchema);
+const Thoughts = mongoose.model("Thoughts", thoughtSchema);
 
-module.exports = Thought;
+module.exports = Thoughts;
